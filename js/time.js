@@ -11,13 +11,15 @@ let x = setInterval(() => {
 
   // console.log(days, hours, minutes, seconds);
 
-  document.getElementById("day").innerHTML = days;
-  document.getElementById("hours").innerHTML = hours;
-  document.getElementById("minutes").innerHTML = minutes;
-  document.getElementById("seconds").innerHTML = seconds;
-
-  // document.getElementsByClassName("day").innerHTML = days;
-  // document.getElementsByClassName("hours").innerHTML = hours;
-  // document.getElementsByClassName("minutes").innerHTML = minutes;
-  // document.getElementsByClassName("seconds").innerHTML = seconds;
+  // document.getElementById("day").innerHTML = days;
+  // document.getElementById("hours").innerHTML = hours;
+  // document.getElementById("minutes").innerHTML = minutes;
+  // document.getElementById("seconds").innerHTML = seconds;
+  // document.querySelector(".day").innerHTML = days;
+  document.getElementsByClassName("day").innerHTML = days;
+  document.getElementsByClassName("hours").innerHTML = hours;
+  document.getElementsByClassName("minutes").innerHTML = minutes;
+  document.getElementsByClassName("seconds").innerHTML = seconds;
 }, 1000);
+
+console.log(document.querySelector(".day"));

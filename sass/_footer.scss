@@ -1,0 +1,17 @@
+.social-item-footer {
+  display: block;
+  transition: all 300ms;
+  opacity: 0.75;
+  &:hover {
+    opacity: 1.5;
+  }
+}
+
+.footer-bt {
+  height: 75px;
+  background-color: #eeeeee;
+}
+.newsletter-icon {
+  right: 12px;
+  color: #007aff;
+}

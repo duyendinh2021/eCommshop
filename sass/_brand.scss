@@ -1,0 +1,19 @@
+.brands-shops {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1ft;
+  grid-column-gap: 10px;
+  grid-row-gap: 0;
+  margin-bottom: 90px;
+  .brand-item {
+    .brand-img {
+      width: 150px;
+      opacity: 0.5;
+      transition: 0.75s;
+      margin: 0 30px;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
