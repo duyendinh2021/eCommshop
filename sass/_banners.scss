@@ -1,0 +1,14 @@
+.banners {
+  height: 300px;
+  .banner-item {
+    &:first-child {
+      background-color: #6353e1;
+    }
+    &:last-child {
+      background-color: #2596db;
+    }
+    &:nth-child(2) {
+      background-color: #53cd83;
+    }
+  }
+}

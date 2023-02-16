@@ -1,0 +1,29 @@
+.card-item-best-seller {
+  .action-card-best-seller {
+    display: none !important;
+    height: 75px;
+    top: 10%;
+    left: 10%;
+    i {
+      &:hover {
+        color: red;
+      }
+    }
+  }
+  &:hover {
+    border: 3px solid aqua;
+    .action-card-best-seller {
+      display: flex !important;
+      color: black;
+    }
+  }
+}
+
+.control-arrow-seller-mode-prev {
+  top: -10%;
+  left: 90%;
+}
+
+.control-arrow-seller-mode-next {
+  top: -10%;
+}

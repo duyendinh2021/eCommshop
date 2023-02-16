@@ -6,6 +6,21 @@
 }
 .top-nav-menu-link {
   color: #656565;
+  .quantity {
+    width: 15px;
+    height: 15px;
+    background-color: #f5f5f5;
+    color: black;
+    top: 6px;
+    left: 10px;
+  }
+  .bag {
+    background-color: red;
+    color: white;
+  }
+}
+.current-money {
+  color: #007aff;
 }
 .btn-search {
   height: 50px;
@@ -13,4 +28,17 @@
   border: none;
   background: #007aff;
   color: white;
+}
+
+.dropdown-category {
+  background-color: #007aff;
+  color: white;
+}
+
+.nav-main {
+  height: 100px;
+}
+
+.active-nav {
+  color: #ff3b30;
 }

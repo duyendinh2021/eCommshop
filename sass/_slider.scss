@@ -1,0 +1,24 @@
+.dots-slider {
+  top: 0;
+  margin-left: 95%;
+  button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    &.active {
+      background-color: blue;
+    }
+  }
+}
+.slider-body {
+  top: 35%;
+  .slider-action {
+    width: 175px !important;
+    height: 50px !important;
+    align-items: center;
+    border: 3px solid aqua;
+  }
+  .slider-name {
+    font-size: 35px;
+  }
+}

@@ -16,15 +16,21 @@
     <!-- MDB -->
     <link rel="stylesheet" href="./lib/mbboostrap/css/mdb.min.css" />
     <!-- carousel -->
-    <link rel="stylesheet" href="./lib/owlcarousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./lib/owlcarousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./lib/owlcarousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./lib/owlcarousel/css/owl.theme.default.min.css" />
+    <!-- splide -->
+    <link rel="stylesheet" href="./lib/splide/css/splide.min.css">
+    <link rel="stylesheet" href="./lib/splide/css/splide-core.min.css">
+    <link rel="stylesheet" href="./lib/splide/css/thems/splide-default.min.css">
+    <link rel="stylesheet" href="./lib/splide/css/thems/splide-sea-green.min.css">
+    <link rel="stylesheet" href="./lib/splide/css/thems/splide-skyblue.min.css">
     <!-- my scc -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
     <!-- Start your project here-->
-    <div class="container" style="background-color: aquamarine; height: 100vh;">
+    <div class="container" style="height: 100vh">
         <!-- header -->
         <header class="d-flex justify-content-between align-content-center w-100 header">
             <div class="d-flex justify-content-between align-content-center">
@@ -39,14 +45,13 @@
                                 <a href="" class="dropdown-item">EN<i class="fa fa-check text-success ms-2"></i></a>
                             </li>
                             <li>
-                                <hr class="dropdown-divider">
+                                <hr class="dropdown-divider" />
                             </li>
                             <li><a href="" class="dropdown-item">EN</a></li>
                             <li><a href="" class="dropdown-item">EN</a></li>
                             <li><a href="" class="dropdown-item">EN</a></li>
                             <li><a href="" class="dropdown-item">EN</a></li>
                             <li><a href="" class="dropdown-item">EN</a></li>
-
                         </ul>
                     </li>
                 </ul>
@@ -61,34 +66,31 @@
                                 <a href="" class="dropdown-item">EN<i class="fa fa-check text-success ms-2"></i></a>
                             </li>
                             <li>
-                                <hr class="dropdown-divider">
+                                <hr class="dropdown-divider" />
                             </li>
                             <li><a href="" class="dropdown-item">EN</a></li>
                             <li><a href="" class="dropdown-item">EN</a></li>
                             <li><a href="" class="dropdown-item">EN</a></li>
                             <li><a href="" class="dropdown-item">EN</a></li>
                             <li><a href="" class="dropdown-item">EN</a></li>
-
                         </ul>
                     </li>
                 </ul>
             </div>
             <div class="d-flex justify-content-between align-content-center header-nav">
-                <div class="d-flex align-items-center"><a href=""
-                        class="d-block text-gray fs-6 fw-normal header-link">Help &
-                        Contact</a>
+                <div class="d-flex align-items-center">
+                    <a href="" class="d-block text-gray fs-6 fw-normal header-link">Help & Contact</a>
                 </div>
-                <div class="d-flex align-items-center"><a href=""
-                        class="d-block text-gray fs-6 fw-normal header-link">Order
-                        Status</a></div>
-                <div class="d-flex align-items-center"><a href=""
-                        class="d-block text-gray fs-6 fw-normal header-link">My
-                        Account</a></div>
+                <div class="d-flex align-items-center">
+                    <a href="" class="d-block text-gray fs-6 fw-normal header-link">Order Status</a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <a href="" class="d-block text-gray fs-6 fw-normal header-link">My Account</a>
+                </div>
             </div>
         </header>
         <!-- nav top -->
-        <div class="nav-top d-flex mt-2 justify-content-between align-items-center flex-column"
-            style="background-color: beige;">
+        <div class="nav-top d-flex mt-2 justify-content-between align-items-center flex-column mb-6">
             <div class="d-flex justify-content-between w-100 flex-row">
                 <div class="logo col-3">
                     <h2><strong>Media</strong>market</h2>
@@ -97,8 +99,9 @@
                     <form action="#" method=""
                         class="d-flex justify-content-between align-items-center flex-row w-100 h-100">
                         <input type="text" class="form-control h-100 border-2 rounded-1 rounded-start"
-                            placeholder="Search for products...">
-                        <select class="position-absolute select-wrapper bg-transparent border-0 select-search"
+                            placeholder="Search for products..." />
+                        <select
+                            class="position-absolute select-wrapper bg-transparent border-0 select-search cursor-pointer"
                             aria-label="Default select example">
                             <option selected>All Categories</option>
                             <option value="1">One</option>
@@ -112,40 +115,1328 @@
                 </div>
                 <div class="col-2 d-flex justify-content-between align-items-center flex-row">
                     <div class="">
-                        <a href="#" class="top-nav-menu-link">
+                        <a href="#" class="top-nav-menu-link position-relative">
                             <i class="fa-solid fa-arrow-right-arrow-left"></i>
-                            <span class="quantity">0</span>
+                            <span
+                                class="quantity position-absolute rounded-circle text-center d-flex align-items-center justify-content-center align-content-center">0</span>
                         </a>
                     </div>
                     <div class="">
-                        <a href="#" class="top-nav-menu-link">
+                        <a href="#" class="top-nav-menu-link position-relative">
                             <i class="fa-regular fa-heart"></i>
-                            <span class="quantity">0</span>
+                            <span
+                                class="quantity position-absolute rounded-circle text-center d-flex align-content-center justify-content-center align-items-center">0</span>
                         </a>
                     </div>
                     <div class="">
-                        <a href="#" class="top-nav-menu-link">
+                        <a href="#" class="top-nav-menu-link position-relative">
                             <i class="fa-solid fa-bag-shopping"></i>
-                            <span class="quantity">3</span>
+                            <span
+                                class="quantity position-absolute rounded-circle text-center d-flex align-content-center justify-content-center align-items-center bag">3</span>
                         </a>
                     </div>
-                    <div class="">$0.00</div>
-
+                    <div class="current-money">$0.00</div>
                 </div>
             </div>
-            <div class="">2</div>
+            <!-- nav-main -->
+            <div class="nav-main w-100 d-flex justify-content-around align-content-center align-items-center">
+                <div class="col-2">
+                    <ul class="navbar-nav dropdown-category w-90 me-4 rounded-4">
+                        <li class="nav-item dropdown">
+                            <a href=""
+                                class="w-100 nav-link dropdown-toggle d-flex justify-content-around align-items-center"
+                                id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                                Shop by Category
+                            </a>
+                            <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a href="" class="dropdown-item">Shop by Category<i
+                                            class="fa fa-check text-success ms-2"></i></a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a href="" class="dropdown-item">Shop by Category</a></li>
+                                <li><a href="" class="dropdown-item">Shop by Category</a></li>
+                                <li><a href="" class="dropdown-item">Shop by Category</a></li>
+                                <li><a href="" class="dropdown-item">Shop by Category</a></li>
+                                <li><a href="" class="dropdown-item">Shop by Category</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-10 d-flex justify-content-between align-items-center">
+                    <div class="col-auto">
+                        <ul class="navbar-nav me-4 rounded-4">
+                            <li class="nav-item dropdown">
+                                <a href="" class="w-100 nav-link dropdown-toggle fw-bold" id="navbarDropdown"
+                                    role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a href="" class="dropdown-item">Home<i
+                                                class="fa fa-check text-success ms-2"></i></a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li><a href="" class="dropdown-item">Home</a></li>
+                                    <li><a href="" class="dropdown-item">Home</a></li>
+                                    <li><a href="" class="dropdown-item">Home</a></li>
+                                    <li><a href="" class="dropdown-item">Home</a></li>
+                                    <li><a href="" class="dropdown-item">Home</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <ul class="navbar-nav me-4 rounded-4">
+                            <li class="nav-item dropdown">
+                                <a href="" class="w-100 nav-link dropdown-toggle fw-bold" id="navbarDropdown"
+                                    role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                                    Shop
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a href="" class="dropdown-item">Shop<i
+                                                class="fa fa-check text-success ms-2"></i></a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li><a href="" class="dropdown-item">Shop</a></li>
+                                    <li><a href="" class="dropdown-item">Shop</a></li>
+                                    <li><a href="" class="dropdown-item">Shop</a></li>
+                                    <li><a href="" class="dropdown-item">Shop</a></li>
+                                    <li><a href="" class="dropdown-item">Shop</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <ul class="navbar-nav me-4 rounded-4">
+                            <li class="nav-item dropdown">
+                                <a href="" class="w-100 nav-link dropdown-toggle fw-bold" id="navbarDropdown"
+                                    role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a href="" class="dropdown-item">Blog<i
+                                                class="fa fa-check text-success ms-2"></i></a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li><a href="" class="dropdown-item">Blog</a></li>
+                                    <li><a href="" class="dropdown-item">Blog</a></li>
+                                    <li><a href="" class="dropdown-item">Blog</a></li>
+                                    <li><a href="" class="dropdown-item">Blog</a></li>
+                                    <li><a href="" class="dropdown-item">Blog</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <ul class="navbar-nav me-4 rounded-4">
+                            <li class="nav-item dropdown">
+                                <a href="" class="w-100 nav-link dropdown-toggle fw-bold" id="navbarDropdown"
+                                    role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a href="" class="dropdown-item">Pages<i
+                                                class="fa fa-check text-success ms-2"></i></a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li><a href="" class="dropdown-item">Pages</a></li>
+                                    <li><a href="" class="dropdown-item">Pages</a></li>
+                                    <li><a href="" class="dropdown-item">Pages</a></li>
+                                    <li><a href="" class="dropdown-item">Pages</a></li>
+                                    <li><a href="" class="dropdown-item">Pages</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-auto fw-bold cursor-pointer">Products</div>
+                    <div class="col-auto fw-bold cursor-pointer">Brands</div>
+                    <div class="col-auto fw-bold active-nav cursor-pointer">
+                        Today’s Deals
+                    </div>
+                    <div class="col-auto fw-bold cursor-pointer">new arrivals</div>
+                    <div class="col-auto text-blue fw-bold cursor-pointer">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel wrapper -->
+        <div id="carousel-slider" class="carousel slide carousel-fade mb-6" data-mdb-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators position-absolute d-flex flex-column dots-slider">
+                <button type="button" data-mdb-target="#carousel-slider" data-mdb-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-mdb-target="#carousel-slider" data-mdb-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-mdb-target="#carousel-slider" data-mdb-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Inner -->
+            <div class="carousel-inner">
+                <!-- Single item -->
+                <div class="carousel-item active position-relative">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100"
+                        alt="Sunset Over the City" />
+                    <div
+                        class="carousel-caption d-flex slider-body text-black w-25 flex-column justify-content-between align-items-start h-30">
+                        <p class="w-auto">Audio and video</p>
+                        <span class="d-flex justify-content-start slider-name fs-4">
+                            <strong class="d-inline">Devialet&nbsp;</strong>
+                            Gold Phantom
+                        </span>
+                        <p class="mt-2 fs-5">Wireless Speaker</p>
+                        <a href=""
+                            class="d-flex align-items-center justify-content-center slider-action rounded-3 fw-lighter fs-4 w-50 h-30 mt-3">Discover
+                            now</a>
+                    </div>
+                </div>
+                <!-- Single item -->
+                <div class="carousel-item active position-relative">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100"
+                        alt="Sunset Over the City" />
+                    <div
+                        class="carousel-caption d-flex slider-body text-black w-25 flex-column justify-content-between align-items-start h-30">
+                        <p class="w-auto">Audio and video</p>
+                        <span class="d-flex justify-content-start slider-name fs-4">
+                            <strong class="d-inline">Devialet&nbsp;</strong>
+                            Gold Phantom
+                        </span>
+                        <p class="mt-2 fs-5">Wireless Speaker</p>
+                        <a href=""
+                            class="d-flex align-items-center justify-content-center slider-action rounded-3 fw-lighter fs-4 w-50 h-30 mt-3">Discover
+                            now</a>
+                    </div>
+                </div>
+                <!-- Single item -->
+                <div class="carousel-item active position-relative">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100"
+                        alt="Sunset Over the City" />
+                    <div
+                        class="carousel-caption d-flex slider-body text-black w-25 flex-column justify-content-between align-items-start h-30">
+                        <p class="w-auto">Audio and video</p>
+                        <span class="d-flex justify-content-start slider-name fs-4">
+                            <strong class="d-inline">Devialet&nbsp;</strong>
+                            Gold Phantom
+                        </span>
+                        <p class="mt-2 fs-5">Wireless Speaker</p>
+                        <a href=""
+                            class="d-flex align-items-center justify-content-center slider-action rounded-3 fw-lighter fs-4 w-50 h-30 mt-3">Discover
+                            now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel wrapper -->
+
+        <!-- banner -->
+        <div class="banners d-flex justify-content-between align-items-center mb-5">
+            <div class="banner-item h-100 w-32 d-flex justify-content-center align-items-start flex-column">
+                <h4 class="banner-caption mx-5 fs-2 fw-light text-break text-white"><strong>dji</strong> drone Reality
+                    Capture</h4>
+                <a href="#"
+                    class="banner-action d-block mx-5 mt-2 fs-3 fw-light text-white text-decoration-underline">Discover
+                    Now</a>
+            </div>
+            <div class="banner-item h-100 w-32 d-flex justify-content-center align-items-start flex-column">
+                <h4 class="banner-caption mx-5 fs-2 fw-light text-break text-white"><strong>osmo</strong> mobile Beyond
+                    Smart</h4>
+                <a href="#"
+                    class="banner-action d-block mx-5 mt-2 fs-3 fw-light text-white text-decoration-underline">Discover
+                    Now</a>
+            </div>
+            <div class="banner-item h-100 w-32 d-flex justify-content-center align-items-start flex-column">
+                <h4 class="banner-caption mx-5 fs-2 fw-light text-break text-white"><strong>s3</strong> flexible Home
+                    Speaker</h4>
+                <a href="#"
+                    class="banner-action d-block mx-5 mt-2 fs-3 fw-light text-white text-decoration-underline">Discover
+                    Now</a>
+            </div>
+        </div>
+        <!-- banner end -->
+
+        <!-- best selling -->
+        <div
+            class="best-sellings w-100 d-flex flex-row justify-content-between align-content-center mb-6 position-relative">
+            <div class="best-sellings-nav col-2 h-100 d-flex justify-content-between flex-column">
+                <span class="best-sellings-nav-title fs-3">
+                    <strong>2017's</strong> Best Selling Products
+                </span>
+                <a href="#" class="best-sellings-view-mode text-blue d-block mb-2 fs-3 fw-light">Full Catalog ></a>
+            </div>
+            <div id="carousel-best-sl" class="col-10 m-0 p-0 splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="owl-carousel d-flex justify-content-between align-items-center">
+                                <div class="card w-100 me-1">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                        class="card-img-top h-auto w-auto" alt="Fissure in Sandstone" />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase mt-3 pt-5">Card title</h5>
+                                    </div>
+                                </div>
+                                <div class="card w-100 me-1">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                        class="card-img-top h-auto w-auto" alt="Fissure in Sandstone" />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase mt-3 pt-5">Card title</h5>
+                                    </div>
+                                </div>
+                                <div class="card w-100 me-1">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                        class="card-img-top h-auto w-auto" alt="Fissure in Sandstone" />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase mt-3 pt-5">Card title</h5>
+                                    </div>
+                                </div>
+                                <div class="card w-100 me-1">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                        class="card-img-top h-auto w-auto" alt="Fissure in Sandstone" />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase mt-3 pt-5">Card title</h5>
+                                    </div>
+                                </div>
+                                <div class="card w-100 me-1">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                        class="card-img-top h-auto w-auto" alt="Fissure in Sandstone" />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase mt-3 pt-5">Card title</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="owl-carousel d-flex justify-content-between align-items-center">
+                                <div class="card w-100 me-1">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                        class="card-img-top h-auto w-auto" alt="Fissure in Sandstone" />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase mt-3 pt-5">Card title</h5>
+                                    </div>
+                                </div>
+                                <div class="card w-100 me-1">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                        class="card-img-top h-auto w-auto" alt="Fissure in Sandstone" />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase mt-3 pt-5">Card title</h5>
+                                    </div>
+                                </div>
+                                <div class="card w-100 me-1">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                        class="card-img-top h-auto w-auto" alt="Fissure in Sandstone" />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase mt-3 pt-5">Card title</h5>
+                                    </div>
+                                </div>
+                                <div class="card w-100 me-1">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                        class="card-img-top h-auto w-auto" alt="Fissure in Sandstone" />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase mt-3 pt-5">Card title</h5>
+                                    </div>
+                                </div>
+                                <div class="card w-100 me-1">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                        class="card-img-top h-auto w-auto" alt="Fissure in Sandstone" />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase mt-3 pt-5">Card title</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- end selling -->
+
+        <!-- deals  -->
+        <div class="deals-of-month d-flex justify-content-between flex-row mb-10">
+            <div id="carousel-deals-main" class="splide col-4 h-100 position-relative mt-0 p-0">
+                <div class="splide__track h-100">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="hot-daels-main">
+                                <h2 class="deals-title d-flex align-items-center justify-content-center m-auto fs-3 fw-normal"
+                                    style="height: 85px;">
+                                    <strong>Deals&nbsp;</strong> of
+                                    the month
+                                </h2>
+                                <div class="br w-80 mx-auto my-auto"></div>
+                                <div class="card w-90 mx-auto my-auto mt-2 text-center position-relative">
+                                    <img src="https://images.ctfassets.net/a3qyhfznts9y/64in7B602n9IQGFZTlTAYj/376f5fa958ca36f3536f0e8a7d4c09a1/e3lite-pdp-overview-US_2x.jpg?w=1080&h=1080&q=80&fm=webp"
+                                        alt="" class="card-img-top">
+                                    <div
+                                        class="seve-price position-absolute d-flex flex-column justify-content-center align-items-center">
+                                        <p class="d-block m-0 p-0 text-white text-uppercase">Save</p>
+                                        <p class="d-block m-0 p-0 text-white fs-5 fw-bold">$99.00</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="price">
+                                            <span class="price-new fs-4 fw-bold">$169.95</span>
+                                            <span
+                                                class="price-old text-decoration-line-through fs-4 fw-bold">$269.00</span>
+                                        </div>
+                                        <div class="name-product-deals fs-5 fw-bold">ecobee3 lite Smart Thermostat</div>
+                                        <div class="remaining-quantity">
+                                            <div
+                                                class="remaining-quantity-text d-flex justify-content-between align-items-center mt-3">
+                                                <p class="text-green"><span class="text-gray">Available:&nbsp;</span>2
+                                                </p>
+                                                <p class="text-red"><span class="text-gray">Already Sold:&nbsp;</span>7
+                                                </p>
+                                            </div>
+                                            <div class="remaining-quantity-range">
+                                                <input type="range" value="5" disabled>
+                                            </div>
+                                            <div class="br w-100 mx-auto my-auto"></div>
+                                            <div class="remind-user mt-5">
+                                                <h4 class="text-uppercase fs-3 fw-bold">Hurry Up!</h4>
+                                                <span class="text-gray fs-4">Offer Ends In:</span>
+                                            </div>
+                                            <div class="timers mt-4">
+                                                <div class="time d-flex justify-content-around align-items-center">
+                                                    <span id="day"
+                                                        class="day timer rounded-circle d-flex justify-content-center flex-column fs-4 fw-bold"></span>
+                                                    <span id="hours"
+                                                        class="hours timer rounded-circle d-flex justify-content-center flex-column fs-4 fw-bold"></span>
+                                                    <span id="minutes"
+                                                        class="minutes timer rounded-circle d-flex justify-content-center flex-column fs-4 fw-bold"></span>
+                                                    <span id="seconds"
+                                                        class="seconds timer rounded-circle d-flex justify-content-center flex-column fs-4 fw-bold"></span>
+                                                </div>
+                                                <div
+                                                    class="time-texts d-flex justify-content-around align-items-center mt-3">
+                                                    <span class="timer-text fs-6 fw-bold">DAYS</span>
+                                                    <span class="timer-text fs-6 fw-bold">HOURS</span>
+                                                    <span class="timer-text fs-6 fw-bold">MINS</span>
+                                                    <span class="timer-text fs-6 fw-bold">SECS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-8 h-auto">
+                <div class="best-daels-menu w-100 d-flex flex-row" style="height: 85px;">
+                    <a class="deals-menu-item mt-auto mb-auto fs-5 fw-bold text-reset text-red cursor-pointer">New
+                        Arrivals</a>
+                    <a class="deals-menu-item mt-auto mb-auto mx-4 fs-5 fw-bold text-reset cursor-pointer">New
+                        Arrivals</a>
+                    <a class="deals-menu-item mt-auto mb-auto my-4 fs-5 fw-bold text-reset cursor-pointer">New
+                        Arrivals</a>
+                    <a class="deals-menu-item mt-auto mb-auto mx-4 fs-5 fw-bold text-reset cursor-pointer">New
+                        Arrivals</a>
+                </div>
+                <div class="br w-100 mx-auto my-auto"></div>
+                <div id="carousel-deals" class="splide m-0 p-0 h-100">
+                    <div class="splide__track h-100">
+                        <ul class="splide__list h-100">
+                            <li class="splide__slide">
+                                <div class="best-deals-product row d-flex justify-content-center mt-4 h-75">
+                                    <div class="card w-32 m-1 text-center">
+                                        <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                                class="w-100" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-blue">$299.95</h5>
+                                            <p class="card-text">
+                                                Beats Solo3 Wireless On–Ear Headphones
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card w-32 m-1 text-center">
+                                        <div class="bg-ima ge hover-overlay ripple" data-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                                class="w-100" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-blue">$299.95</h5>
+                                            <p class="card-text">
+                                                Beats Solo3 Wireless On–Ear Headphones
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card w-32 m-1 text-center">
+                                        <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                                class="w-100" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-blue">$299.95</h5>
+                                            <p class="card-text">
+                                                Beats Solo3 Wireless On–Ear Headphones
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card w-32 m-1 text-center">
+                                        <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                                class="w-100" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-blue">$299.95</h5>
+                                            <p class="card-text">
+                                                Beats Solo3 Wireless On–Ear Headphones
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card w-32 m-1 text-center">
+                                        <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                                class="w-100" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-blue">$299.95</h5>
+                                            <p class="card-text">
+                                                Beats Solo3 Wireless On–Ear Headphones
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card w-32 m-1 text-center">
+                                        <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                                class="w-100" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-blue">$299.95</h5>
+                                            <p class="card-text">
+                                                Beats Solo3 Wireless On–Ear Headphones
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end deals -->
+
+
+        <!-- Best Sellers Products -->
+        <div class="best-sellers mb-6">
+            <h3 class="best-title"><strong>Best Sellers</strong> Products</h3>
+            <div class="br w-100"></div>
+            <div id="carousel-bestsller" class="splide m-0 p-0 h-100">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="item-best-selers d-flex justify-content-between align-items-center flex-row">
+                                <div class="card w-32 m-1 text-center card-item-best-seller position-relative">
+                                    <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                                            </div>
+                                        </a>
+                                        <div
+                                            class="action-card-best-seller position-absolute d-flex justify-content-between align-items-center flex-column">
+                                            <i class="fa-regular fa-heart rounded-circle"></i>
+                                            <i class="fa-solid fa-arrow-right-arrow-left rounded-circle"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-blue">$299.95</h5>
+                                        <p class="card-text">
+                                            Beats Solo3 Wireless On–Ear Headphones
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card w-32 m-1 text-center card-item-best-seller position-relative">
+                                    <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                                            </div>
+                                        </a>
+                                        <div
+                                            class="action-card-best-seller position-absolute d-flex justify-content-between align-items-center flex-column">
+                                            <i class="fa-regular fa-heart rounded-circle"></i>
+                                            <i class="fa-solid fa-arrow-right-arrow-left rounded-circle"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-blue">$299.95</h5>
+                                        <p class="card-text">
+                                            Beats Solo3 Wireless On–Ear Headphones
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card w-32 m-1 text-center card-item-best-seller position-relative">
+                                    <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                                            </div>
+                                        </a>
+                                        <div
+                                            class="action-card-best-seller position-absolute d-flex justify-content-between align-items-center flex-column">
+                                            <i class="fa-regular fa-heart rounded-circle"></i>
+                                            <i class="fa-solid fa-arrow-right-arrow-left rounded-circle"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-blue">$299.95</h5>
+                                        <p class="card-text">
+                                            Beats Solo3 Wireless On–Ear Headphones
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card w-32 m-1 text-center card-item-best-seller position-relative">
+                                    <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                                            </div>
+                                        </a>
+                                        <div
+                                            class="action-card-best-seller position-absolute d-flex justify-content-between align-items-center flex-column">
+                                            <i class="fa-regular fa-heart rounded-circle"></i>
+                                            <i class="fa-solid fa-arrow-right-arrow-left rounded-circle"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-blue">$299.95</h5>
+                                        <p class="card-text">
+                                            Beats Solo3 Wireless On–Ear Headphones
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card w-32 m-1 text-center card-item-best-seller position-relative">
+                                    <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                                            </div>
+                                        </a>
+                                        <div
+                                            class="action-card-best-seller position-absolute d-flex justify-content-between align-items-center flex-column">
+                                            <i class="fa-regular fa-heart rounded-circle"></i>
+                                            <i class="fa-solid fa-arrow-right-arrow-left rounded-circle"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-blue">$299.95</h5>
+                                        <p class="card-text">
+                                            Beats Solo3 Wireless On–Ear Headphones
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card w-32 m-1 text-center card-item-best-seller position-relative">
+                                    <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)">
+                                            </div>
+                                        </a>
+                                        <div
+                                            class="action-card-best-seller position-absolute d-flex justify-content-between align-items-center flex-column">
+                                            <i class="fa-regular fa-heart rounded-circle"></i>
+                                            <i class="fa-solid fa-arrow-right-arrow-left rounded-circle"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-blue">$299.95</h5>
+                                        <p class="card-text">
+                                            Beats Solo3 Wireless On–Ear Headphones
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Best Seller product end -->
+
+        <!-- Today's Deals -->
+        <div class="today-deals mb-6 w-100">
+            <!-- title -->
+            <h2 class="text-center"><strong>Today's</strong> Deals</h2>
+            <!-- menu -->
+            <div
+                class="today-deals-menu mt-4 d-flex mx-auto my-auto justify-content-between flex-row align-items-center w-75 mb-9">
+                <a href="" class="fs-3 fw-bold text-black">TV & Audio</a>
+                <a href="" class="fs-3 fw-light text-gray">Computers & Laptops</a>
+                <a href="" class="fs-3 fw-light text-gray">Cameras & Photos</a>
+                <a href="" class="fs-3 fw-light text-gray">Car Electronics & GPS</a>
+            </div>
+
+            <!-- carousel -->
+            <div id="carousel-seller-today" class="splide p-0 m-0 h-500px">
+                <div class="splide__track">
+                    <ul class="splide__list h-auto">
+                        <li class="splide__slide">
+                            <div class="carousel-item-today-deals w-100 d-flex flex-row justify-content-between">
+                                <div class="col-3">
+                                    <div class="card flex-row m-1">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <div class="card-body m-1 p-0">
+                                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                                            <p class="card-text fw-light">
+                                                65" Class Q8C Curved QLED 4K TV
+                                            </p>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span>(5)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex-row m-1">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <div class="card-body m-1 p-0">
+                                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                                            <p class="card-text fw-light">
+                                                65" Class Q8C Curved QLED 4K TV
+                                            </p>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span>(5)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex-row m-1">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <div class="card-body m-1 p-0">
+                                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                                            <p class="card-text fw-light">
+                                                65" Class Q8C Curved QLED 4K TV
+                                            </p>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="">(5)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="card flex-row h-500px">
+                                        <div class="wrap-thubnail w-50">
+                                            <div id="thumbnail-carousel-today-deals-main" class="splide m-0 p-0"
+                                                aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+                                                <div class="splide__track ">
+                                                    <ul class="splide__list ">
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/08.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/07.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/01.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/04.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div id="thumbnail-carousel-today-deals" class="splide w-100"
+                                                aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+                                                <div class="splide__track">
+                                                    <ul class="splide__list">
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/08.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/07.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/01.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/04.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body m-2 p-2">
+                                            <h5 class="card-title fs-2 text-blue fw-bold">$1 199.99</h5>
+                                            <span class="fs-4">55" Class MU8500 Curved 4K UHD TV</span>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="">(5)</span>
+                                            </div>
+                                            <ul class="mt-3 list-unstyled">
+                                                <li>- Picture Quality Index: 1300 </li>
+                                                <li>- Technological PurColour</li>
+                                                <li>- Android</li>
+                                            </ul>
+                                            <a href="" class="btn text-white rounded-9 bgc-red">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-3">
+                                    <div class="card flex-row m-1">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <div class="card-body m-1 p-0">
+                                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                                            <p class="card-text fw-light">
+                                                65" Class Q8C Curved QLED 4K TV
+                                            </p>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span>(5)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex-row m-1">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <div class="card-body m-1 p-0">
+                                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                                            <p class="card-text fw-light">
+                                                65" Class Q8C Curved QLED 4K TV
+                                            </p>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span>(5)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex-row m-1">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <div class="card-body m-1 p-0">
+                                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                                            <p class="card-text fw-light">
+                                                65" Class Q8C Curved QLED 4K TV
+                                            </p>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="">(5)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="carousel-item-today-deals w-100 d-flex flex-row justify-content-between">
+                                <div class="col-3">
+                                    <div class="card flex-row m-1">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <div class="card-body m-1 p-0">
+                                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                                            <p class="card-text fw-light">
+                                                65" Class Q8C Curved QLED 4K TV
+                                            </p>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span>(5)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex-row m-1">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <div class="card-body m-1 p-0">
+                                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                                            <p class="card-text fw-light">
+                                                65" Class Q8C Curved QLED 4K TV
+                                            </p>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span>(5)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex-row m-1">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <div class="card-body m-1 p-0">
+                                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                                            <p class="card-text fw-light">
+                                                65" Class Q8C Curved QLED 4K TV
+                                            </p>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="">(5)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="card flex-row h-500px">
+                                        <div class="wrap-thubnail w-50">
+                                            <div id="thumbnail-carousel-today-deals-main" class="splide m-0 p-0"
+                                                aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+                                                <div class="splide__track ">
+                                                    <ul class="splide__list ">
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/08.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/07.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/01.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/04.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div id="thumbnail-carousel-today-deals" class="splide w-100"
+                                                aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+                                                <div class="splide__track">
+                                                    <ul class="splide__list">
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/08.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/07.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/01.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                        <li class="splide__slide">
+                                                            <img src="https://splidejs.com/images/slides/general/04.jpg"
+                                                                class="w-100" alt="">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body m-2 p-2">
+                                            <h5 class="card-title fs-2 text-blue fw-bold">$1 199.99</h5>
+                                            <span class="fs-4">55" Class MU8500 Curved 4K UHD TV</span>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="">(5)</span>
+                                            </div>
+                                            <ul class="mt-3 list-unstyled">
+                                                <li>- Picture Quality Index: 1300 </li>
+                                                <li>- Technological PurColour</li>
+                                                <li>- Android</li>
+                                            </ul>
+                                            <a href="" class="btn text-white rounded-9 bgc-red">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-3">
+                                    <div class="card flex-row m-1">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <div class="card-body m-1 p-0">
+                                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                                            <p class="card-text fw-light">
+                                                65" Class Q8C Curved QLED 4K TV
+                                            </p>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span>(5)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex-row m-1">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <div class="card-body m-1 p-0">
+                                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                                            <p class="card-text fw-light">
+                                                65" Class Q8C Curved QLED 4K TV
+                                            </p>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span>(5)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex-row m-1">
+                                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+                                            class="w-100" />
+                                        <div class="card-body m-1 p-0">
+                                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                                            <p class="card-text fw-light">
+                                                65" Class Q8C Curved QLED 4K TV
+                                            </p>
+                                            <div class="assess d-flex">
+                                                <div class="star color-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <span class="">(5)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- <div class="carousel-item-today-deals w-100 d-flex flex-row justify-content-between">
+                <div class="col-3">
+                    <div class="card flex-row m-1">
+                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="w-100" />
+                        <div class="card-body m-1 p-0">
+                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                            <p class="card-text fw-light">
+                                65" Class Q8C Curved QLED 4K TV
+                            </p>
+                            <div class="assess d-flex">
+                                <div class="star color-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span>(5)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-row m-1">
+                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="w-100" />
+                        <div class="card-body m-1 p-0">
+                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                            <p class="card-text fw-light">
+                                65" Class Q8C Curved QLED 4K TV
+                            </p>
+                            <div class="assess d-flex">
+                                <div class="star color-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span>(5)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-row m-1">
+                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="w-100" />
+                        <div class="card-body m-1 p-0">
+                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                            <p class="card-text fw-light">
+                                65" Class Q8C Curved QLED 4K TV
+                            </p>
+                            <div class="assess d-flex">
+                                <div class="star color-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="">(5)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="card flex-row h-100 w-100">
+                        <div class="wrap-thubnail w-50 h-50 position-relative">
+                            <div id="thumbnail-carousel-today-deals-main" class="splide m-0 p-0"
+                                aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+                                <div class="splide__track ">
+                                    <ul class="splide__list ">
+                                        <li class="splide__slide">
+                                            <img src="https://splidejs.com/images/slides/general/08.jpg" class="w-100"
+                                                alt="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="https://splidejs.com/images/slides/general/07.jpg" class="w-100"
+                                                alt="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="https://splidejs.com/images/slides/general/01.jpg" class="w-100"
+                                                alt="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="https://splidejs.com/images/slides/general/04.jpg" class="w-100"
+                                                alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="thumbnail-carousel-today-deals" class="splide w-100"
+                                aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide">
+                                            <img src="https://splidejs.com/images/slides/general/08.jpg" class="w-100"
+                                                alt="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="https://splidejs.com/images/slides/general/07.jpg" class="w-100"
+                                                alt="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="https://splidejs.com/images/slides/general/01.jpg" class="w-100"
+                                                alt="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="https://splidejs.com/images/slides/general/04.jpg" class="w-100"
+                                                alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body m-2 p-2">
+                            <h5 class="card-title fs-2 text-blue fw-bold">$1 199.99</h5>
+                            <span class="fs-4">55" Class MU8500 Curved 4K UHD TV</span>
+                            <div class="assess d-flex">
+                                <div class="star color-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="">(5)</span>
+                            </div>
+                            <ul class="mt-3 list-unstyled">
+                                <li>- Picture Quality Index: 1300 </li>
+                                <li>- Technological PurColour</li>
+                                <li>- Android</li>
+                            </ul>
+                            <a href="" class="btn text-white rounded-9 bgc-red">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card flex-row m-1">
+                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="w-100" />
+                        <div class="card-body m-1 p-0">
+                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                            <p class="card-text fw-light">
+                                65" Class Q8C Curved QLED 4K TV
+                            </p>
+                            <div class="assess d-flex">
+                                <div class="star color-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span>(5)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-row m-1">
+                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="w-100" />
+                        <div class="card-body m-1 p-0">
+                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                            <p class="card-text fw-light">
+                                65" Class Q8C Curved QLED 4K TV
+                            </p>
+                            <div class="assess d-flex">
+                                <div class="star color-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span>(5)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-row m-1">
+                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="w-100" />
+                        <div class="card-body m-1 p-0">
+                            <h5 class="card-title fs-6 text-blue fw-bold">$3 299.99 </h5>
+                            <p class="card-text fw-light">
+                                65" Class Q8C Curved QLED 4K TV
+                            </p>
+                            <div class="assess d-flex">
+                                <div class="star color-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="">(5)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </div>
     </div>
     <!-- End your project here-->
 
     <!-- MDB -->
-    <script type=" text/javascript" src="./lib/mbboostrap/js/mdb.min.js">
-                </script>
+    <script type=" text/javascript" src="./lib/mbboostrap/js/mdb.min.js"></script>
     <!-- jquery -->
     <script type="text/javascript" src="./lib/owlcarousel/js/jquery.min.js"></script>
     <!-- carousel -->
     <script type="text/javascript" src="./lib/owlcarousel/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="./lib/splide/js/splide.min.js"></script>
     <!-- use script -->
+    <script type="text/javascript" src="./js/time.js"></script>
     <script type="text/javascript" src="./js/app.js"></script>
 </body>
 

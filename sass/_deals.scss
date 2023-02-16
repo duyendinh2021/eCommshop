@@ -1,0 +1,47 @@
+.price-new {
+  color: #007aff;
+}
+.price-old {
+  color: #cccccc;
+}
+
+.timer {
+  width: 60px;
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.timer-text {
+  width: 60px;
+  height: 60px;
+}
+
+.control-arrow-deals-prev {
+  position: absolute;
+  top: 5%;
+}
+.control-arrow-deals-next {
+  position: absolute;
+  top: 5%;
+}
+.seve-price {
+  right: 2%;
+  top: 3%;
+  height: 100px;
+  width: 100px;
+  background-color: #4cd964;
+  border-radius: 50%;
+}
+
+.control-arrow-deals-mode-next {
+  top: -4%;
+  left: 90%;
+}
+.control-arrow-deals-mode-prev {
+  top: -4%;
+  left: 80%;
+}
+
+.today-deals {
+  background-color: #eeeeee;
+}
