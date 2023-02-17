@@ -3,6 +3,10 @@ $('input[type="checkbox"]').on("click", check_add_card);
 let cost = 0;
 let html_price = document.getElementById("price-select-item");
 
+function uncheck() {
+  $(".check-product-to-card").prop("checked", false);
+}
+
 function check_add_card() {
   if ($(this).prop("checked") == true) {
     cost = cost + Number($(this).val());
@@ -12,6 +16,8 @@ function check_add_card() {
     html_price.innerHTML = `$${cost}`;
   }
 }
+
+window.onbeforeunload = uncheck();
 
 new Splide("#carousel-recently", {
   pagination: true,
