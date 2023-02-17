@@ -389,4 +389,17 @@ input[type=range]::-moz-range-thumb {
   color: #007aff;
 }
 
+.add-card-sl-item {
+  background-color: white;
+  color: #ff3b30;
+  border: 2px solid #ff3b30;
+  border-radius: 15px;
+  transition: all 300ms;
+  opacity: 0.65;
+}
+.add-card-sl-item:hover {
+  color: #ff3b30;
+  opacity: 1;
+}
+
 /*# sourceMappingURL=style.css.map */

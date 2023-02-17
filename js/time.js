@@ -21,5 +21,3 @@ let x = setInterval(() => {
   document.getElementsByClassName("minutes").innerHTML = minutes;
   document.getElementsByClassName("seconds").innerHTML = seconds;
 }, 1000);
-
-console.log(document.querySelector(".day"));
