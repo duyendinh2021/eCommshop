@@ -71,3 +71,9 @@
     bottom: -10%;
   }
 }
+.hot-daels-main {
+  &:hover {
+    border: 3px solid #4cd964;
+    border-radius: 10px;
+  }
+}

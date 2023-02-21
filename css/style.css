@@ -160,6 +160,10 @@ input[type=range]::-moz-range-thumb {
   fill: #979797;
 }
 
+.w-45 {
+  width: 45%;
+}
+
 .wrap-header {
   background-color: #f3f3f3;
 }
@@ -397,6 +401,11 @@ input[type=range]::-moz-range-thumb {
   bottom: -10%;
 }
 
+.hot-daels-main:hover {
+  border: 3px solid #4cd964;
+  border-radius: 10px;
+}
+
 .control-arrow-recommend-next {
   display: none;
 }
@@ -488,9 +497,12 @@ input[type=range]::-moz-range-thumb {
   opacity: 1.5;
 }
 
+.wrap-copyright {
+  background-color: #eeeeee;
+}
+
 .footer-bt {
   height: 75px;
-  background-color: #eeeeee;
 }
 
 .newsletter-icon {

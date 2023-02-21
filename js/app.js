@@ -75,6 +75,7 @@ thumbnails.mount();
 
 new Splide("#carousel-seller-today", {
   type: "loop",
+  arrows: false,
 }).mount();
 
 new Splide("#carousel-host-arrivls", {
