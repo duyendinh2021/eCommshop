@@ -101,7 +101,7 @@ input[type=range]::-moz-range-thumb {
 }
 
 .text-red {
-  color: #ff918b !important;
+  color: #ff3b30 !important;
 }
 
 .h-90 {
@@ -152,14 +152,24 @@ input[type=range]::-moz-range-thumb {
   font-size: 14px;
 }
 
-.header {
+.btn-red {
+  background-color: #ff3b30;
+}
+
+.splide__arrow svg path {
+  fill: #979797;
+}
+
+.wrap-header {
   background-color: #f3f3f3;
+}
+.wrap-header .header {
   height: fit-content;
 }
-.header-link {
+.wrap-header .header-link {
   font-family: "Poppins", sans-serif;
 }
-.header-nav {
+.wrap-header .header-nav {
   width: 30%;
 }
 
@@ -251,7 +261,7 @@ input[type=range]::-moz-range-thumb {
 }
 
 .best-sellings {
-  height: 275px !important;
+  height: 275px;
 }
 
 .control-arrow-prev {
@@ -266,19 +276,30 @@ input[type=range]::-moz-range-thumb {
   left: -15%;
 }
 
-.card-item-best-seller .action-card-best-seller {
+.item-best-selers {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+}
+.item-best-selers .card-item-best-seller {
+  height: 275px;
+  width: 16.6666666667;
+}
+.item-best-selers .card-item-best-seller .action-card-best-seller {
   display: none !important;
   height: 75px;
   top: 10%;
   left: 10%;
 }
-.card-item-best-seller .action-card-best-seller i:hover {
+.item-best-selers .card-item-best-seller .action-card-best-seller i:hover {
   color: red;
 }
-.card-item-best-seller:hover {
+.item-best-selers .card-item-best-seller:hover {
   border: 3px solid aqua;
 }
-.card-item-best-seller:hover .action-card-best-seller {
+.item-best-selers .card-item-best-seller:hover .action-card-best-seller {
   display: flex !important;
   color: black;
 }
@@ -287,9 +308,25 @@ input[type=range]::-moz-range-thumb {
   top: -10%;
   left: 90%;
 }
+.control-arrow-seller-mode-prev svg path {
+  fill: #979797;
+}
 
 .control-arrow-seller-mode-next {
   top: -10%;
+}
+.control-arrow-seller-mode-next svg path {
+  fill: #979797;
+}
+
+.deals-of-month {
+  height: 1000px;
+}
+.deals-of-month .best-daels-menu {
+  height: 85px;
+}
+.deals-of-month .carousel-deals {
+  height: 900px;
 }
 
 .price-new {
@@ -340,8 +377,24 @@ input[type=range]::-moz-range-thumb {
   left: 80%;
 }
 
-.today-deals {
+.wrap-today-deals {
   background-color: #eeeeee;
+}
+
+.add-to-card {
+  opacity: 0.75;
+}
+.add-to-card:hover {
+  background-color: #ff3b30;
+  opacity: 1;
+}
+
+#carousel-seller-today {
+  position: relative;
+}
+#carousel-seller-today .splide__pagination {
+  position: absolute;
+  bottom: -10%;
 }
 
 .control-arrow-recommend-next {
@@ -350,6 +403,62 @@ input[type=range]::-moz-range-thumb {
 
 .control-arrow-recommend-prev {
   display: none;
+}
+
+.warp-recommended {
+  background-color: #f5f5f5;
+  height: 350px;
+}
+
+#carousel-recommended .splide__pagination {
+  bottom: -10%;
+}
+
+.control-arrow-recently-mode-prev {
+  left: 90%;
+  top: -30%;
+}
+.control-arrow-recently-mode-prev svg path {
+  fill: #979797;
+}
+
+.control-arrow-recently-mode-next {
+  top: -30%;
+}
+.control-arrow-recently-mode-next svg path {
+  fill: #979797;
+}
+
+.card-item-host-arrivals {
+  cursor: pointer;
+}
+.card-item-host-arrivals .action-card-host-arrivals {
+  display: none !important;
+}
+.card-item-host-arrivals:hover .action-card-host-arrivals {
+  display: flex !important;
+  top: 5%;
+  left: 10%;
+}
+.card-item-host-arrivals:hover .action-card-host-arrivals i {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-item-host-arrivals:hover .action-card-host-arrivals i:hover {
+  color: red;
+}
+
+#carousel-host-arrivls {
+  position: relative;
+}
+#carousel-host-arrivls .splide__pagination {
+  position: absolute;
+  bottom: -5%;
 }
 
 .brands-shops {

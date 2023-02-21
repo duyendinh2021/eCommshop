@@ -26,7 +26,7 @@ new Splide("#carousel-deals", {
   pagination: true,
   lazyLoad: true,
   type: "loop",
-  paginationDirection: "ttb",
+  // paginationDirection: "ttb",
   classes: {
     arrows: "control-arrows",
     arrow: "splide__arrow control-arrow-deals-mode",
@@ -49,7 +49,7 @@ new Splide("#carousel-bestsller", {
 
 var main = new Splide(".thumbnail-carousel-today-deals-main", {
   type: "fade",
-  rewind: true,
+  // rewind: true,
   pagination: false,
   arrows: false,
 });
@@ -79,6 +79,12 @@ new Splide("#carousel-seller-today", {
 
 new Splide("#carousel-host-arrivls", {
   type: "loop",
+  classes: {
+    arrows: "control-arrows",
+    arrow: "splide__arrow control-arrow-deals-mode",
+    prev: "splide__arrow--prev control-arrow-recommend-prev position-absolute",
+    next: "splide__arrow--next control-arrow-recommend-next position-absolute",
+  },
 }).mount();
 
 new Splide("#carousel-recommended", {
@@ -98,7 +104,7 @@ new Splide("#carousel-recently", {
   classes: {
     arrows: "control-arrows",
     arrow: "splide__arrow control-arrow-deals-mode",
-    prev: "splide__arrow--prev control-arrow-seller-mode-prev position-absolute",
-    next: "splide__arrow--next control-arrow-seller-mode-next position-absolute",
+    prev: "splide__arrow--prev control-arrow-recently-mode-prev position-absolute",
+    next: "splide__arrow--next control-arrow-recently-mode-next position-absolute",
   },
 }).mount();

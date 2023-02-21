@@ -1,3 +1,13 @@
+.deals-of-month {
+  height: 1000px;
+  .best-daels-menu {
+    height: 85px;
+  }
+  .carousel-deals {
+    height: 900px;
+  }
+}
+
 .price-new {
   color: #007aff;
 }
@@ -42,6 +52,22 @@
   left: 80%;
 }
 
-.today-deals {
+.wrap-today-deals {
   background-color: #eeeeee;
+}
+
+.add-to-card {
+  opacity: 0.75;
+  &:hover {
+    background-color: #ff3b30;
+    opacity: 1;
+  }
+}
+
+#carousel-seller-today {
+  position: relative;
+  .splide__pagination {
+    position: absolute;
+    bottom: -10%;
+  }
 }

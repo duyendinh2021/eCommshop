@@ -1,10 +1,12 @@
-.header {
+.wrap-header {
   background-color: #f3f3f3;
-  height: fit-content;
-  &-link {
-    font-family: "Poppins", sans-serif;
-  }
-  &-nav {
-    width: 30%;
+  .header {
+    height: fit-content;
+    &-link {
+      font-family: "Poppins", sans-serif;
+    }
+    &-nav {
+      width: 30%;
+    }
   }
 }

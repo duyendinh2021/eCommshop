@@ -1,0 +1,33 @@
+.card-item-host-arrivals {
+  cursor: pointer;
+  .action-card-host-arrivals {
+    display: none !important;
+  }
+
+  &:hover {
+    .action-card-host-arrivals {
+      display: flex !important;
+      top: 5%;
+      left: 10%;
+      i {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}
+#carousel-host-arrivls {
+  position: relative;
+  .splide__pagination {
+    position: absolute;
+    bottom: -5%;
+  }
+}

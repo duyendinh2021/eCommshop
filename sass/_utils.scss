@@ -1,3 +1,7 @@
+@function calculatorWith($with, $counterItem) {
+  @return calc($with / $counterItem);
+}
+
 .text-gray {
   color: $color-text-gray;
 }
@@ -45,7 +49,7 @@
   color: #4cd964;
 }
 .text-red {
-  color: #ff918b !important;
+  color: #ff3b30 !important;
 }
 .h-90 {
   height: 90% !important;
@@ -92,4 +96,14 @@
 
 .fs-14px {
   font-size: 14px;
+}
+
+.btn-red {
+  background-color: #ff3b30;
+}
+
+.splide__arrow {
+  svg path {
+    fill: #979797;
+  }
 }

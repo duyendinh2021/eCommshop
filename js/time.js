@@ -9,15 +9,21 @@ let x = setInterval(() => {
   let minutes = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((time % (1000 * 60)) / 1000);
 
-  // console.log(days, hours, minutes, seconds);
+  let day = document.getElementsByClassName("day");
+  let hour = document.getElementsByClassName("hours");
+  let minute = document.getElementsByClassName("minutes");
+  let second = document.getElementsByClassName("seconds");
 
-  // document.getElementById("day").innerHTML = days;
-  // document.getElementById("hours").innerHTML = hours;
-  // document.getElementById("minutes").innerHTML = minutes;
-  // document.getElementById("seconds").innerHTML = seconds;
-  // document.querySelector(".day").innerHTML = days;
-  document.getElementsByClassName("day").innerHTML = days;
-  document.getElementsByClassName("hours").innerHTML = hours;
-  document.getElementsByClassName("minutes").innerHTML = minutes;
-  document.getElementsByClassName("seconds").innerHTML = seconds;
+  for (currentDay of day) {
+    currentDay.innerHTML = days;
+  }
+  for (currentHour of hour) {
+    currentHour.innerHTML = hours;
+  }
+  for (currentMinute of minute) {
+    currentMinute.innerHTML = minutes;
+  }
+  for (currentSecond of second) {
+    currentSecond.innerHTML = seconds;
+  }
 }, 1000);
