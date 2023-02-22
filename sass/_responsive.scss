@@ -1,0 +1,7 @@
+$res_760: "only screen and (max-width: 760px)";
+
+@mixin responsive_760() {
+  @media #{$res_760} {
+    @content;
+  }
+}

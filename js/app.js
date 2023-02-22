@@ -49,7 +49,6 @@ new Splide("#carousel-bestsller", {
 
 var main = new Splide(".thumbnail-carousel-today-deals-main", {
   type: "fade",
-  // rewind: true,
   pagination: false,
   arrows: false,
 });
@@ -57,7 +56,6 @@ var main = new Splide(".thumbnail-carousel-today-deals-main", {
 var thumbnails = new Splide(".thumbnail-carousel-today-deals", {
   fixedWidth: 100,
   fixedHeight: 60,
-  // gap: 10,
   rewind: true,
   pagination: false,
   isNavigation: true,
@@ -73,10 +71,55 @@ main.sync(thumbnails);
 main.mount();
 thumbnails.mount();
 
-new Splide("#carousel-seller-today", {
-  type: "loop",
+var main2 = new Splide(".thumbnail-carousel-today-deals-main2", {
+  type: "fade",
+  pagination: false,
   arrows: false,
-}).mount();
+});
+
+var thumbnails2 = new Splide(".thumbnail-carousel-today-deals2", {
+  fixedWidth: 100,
+  fixedHeight: 60,
+  rewind: true,
+  pagination: false,
+  isNavigation: true,
+  breakpoints: {
+    600: {
+      fixedWidth: 60,
+      fixedHeight: 44,
+    },
+  },
+});
+main2.sync(thumbnails2);
+main2.mount();
+thumbnails2.mount();
+
+var main3 = new Splide(".thumbnail-carousel-today-deals-main3", {
+  type: "fade",
+  pagination: false,
+  arrows: false,
+});
+
+var thumbnails3 = new Splide(".thumbnail-carousel-today-deals3", {
+  fixedWidth: 100,
+  fixedHeight: 60,
+  rewind: true,
+  pagination: false,
+  isNavigation: true,
+  breakpoints: {
+    600: {
+      fixedWidth: 60,
+      fixedHeight: 44,
+    },
+  },
+});
+main3.sync(thumbnails3);
+main3.mount();
+thumbnails3.mount();
+// new Splide("#carousel-seller-today", {
+//   type: "loop",
+//   arrows: false,
+// }).mount();
 
 new Splide("#carousel-host-arrivls", {
   type: "loop",

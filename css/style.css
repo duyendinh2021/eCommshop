@@ -510,6 +510,11 @@ input[type=range]::-moz-range-thumb {
   color: #007aff;
 }
 
+.wrap-copyright-detail {
+  background-color: #eeeeee;
+  height: 180px;
+}
+
 .add-card-sl-item {
   background-color: white;
   color: #ff3b30;
